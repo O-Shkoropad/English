@@ -1,0 +1,37 @@
+body {
+
+        width:900 px;
+         margin:auto;
+         
+         }
+          .content {
+         grid-area: content;
+         }
+         .header {
+         grid-area: header;
+        
+         }
+         .footer {
+         grid-area: footer;
+         }
+
+         .wrapper {
+         display: grid;
+        grid-template-areas:
+         "header"
+        
+         "content"
+
+         "footer"
+         }
+         .header{
+           width:100%;
+         }
+
+h1{
+    text-align:center;
+    color:black;
+    
+}
+
+              
